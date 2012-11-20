@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Copyright (c) 2012 Rally Software Development Corp. All rights reserved -->
+<html>
+<head>
+  <title>Planned vs Actual Burndown</title>
+  <meta name="Name" content="App: Planned vs Actual Burndown" />
+  <meta name="Version" content="2012.11.19" />
+  <meta name="Vendor" content="Rally Software" />
+
+  <script type="text/javascript" src="/apps/1.32/sdk.js"></script>
+
+  <script type="text/javascript">
+    function onLoad() {
+      var appCustom = new PlannedVsActualBurndown();
+      appCustom.display();
+    }
+
+    rally.addOnLoad(onLoad);
+  </script>
+</head>
+
+<body>
+  <div id="waiter"></div>
+  <div id="releaseDiv"></div>
+  <div id="dropdownDiv"></div>
+
+  <div id="legendDiv"></div>
+  <div id="lineChartDiv"></div>
+  <div id="planEstimateDiv"></div>
+  <div id="aggregatedDataDiv"></div>
+</body>
+</html>
