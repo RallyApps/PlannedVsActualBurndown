@@ -1,4 +1,4 @@
-Rally Open Stories, Tasks, and Defects by Iteration
+Rally Planned vs Actual Burndown Chart
 ======================
 
 ![Title](https://raw.github.com/RallyApps/PlannedVsActualBurndown/master/screenshots/title-screenshot.png)
